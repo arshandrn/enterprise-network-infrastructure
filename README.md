@@ -53,9 +53,19 @@ Rogue device connection triggers immediate err-disabled state.
 Cisco Packet Tracer, Cisco IOS CLI,
 Cisco 2960/3650/ISR4331 devices
 
+## Files in This Repo
+- [Project Report](network.pdf)
+- [Network_config](config/network-summary.md)
+- [Screenshots](screenshots)
+
 ## Screenshots
+- DHCP Lease
 ![DHCP Lease](screenshots/fig2-dhcp-lease.png)
+- ACL Blocking Guest
 ![ACL Blocking Guest](screenshots/fig4-acl-blocking.png)
+- Guest Internet Access
 ![Guest Internet Access](screenshots/fig5-guest-internet.png)
+- Port Security
 ![Port Security](screenshots/fig6-port-security.png)
+- HSRP Verification
 ![HSRP Verification](screenshots/fig7-hsrp-verification.png)
