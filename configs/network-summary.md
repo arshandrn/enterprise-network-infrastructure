@@ -17,14 +17,14 @@
 ## Key Configurations
 
 ### HSRP (High Availability)
-- Router 1: Priority 110 — Active gateway
-- Router 2: Priority 100 — Standby
+- Router 1: Priority 110 - Active gateway
+- Router 2: Priority 100 - Standby
 - Failover time: 3 seconds
 - Virtual IP: 10.0.0.1
 
 ### ACL (Zero-Trust for Guest VLAN)
-- Rule 1: DENY — Guest VLAN to any internal subnet
-- Rule 2: PERMIT — Guest VLAN to internet (0.0.0.0/0)
+- Rule 1: DENY - Guest VLAN to any internal subnet
+- Rule 2: PERMIT - Guest VLAN to internet (0.0.0.0/0)
 
 ### Port Security
 - Mode: mac-address sticky
